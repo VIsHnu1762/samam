@@ -6,7 +6,7 @@ Priority: P0 = MVP, P1 = next, P2 = later, P3 = stretch. Persona: A = Arjun (Mac
 | Phase | Weeks | Focus | Gate to move on |
 |---|---|---|---|
 | 1 | 1-3 | Core tools | Deployed, 10 real users |
-| 2 | 4-6 | Fidelity + photo/signature tools | 25 users, 10 broken files fixed |
+| 2 | 4-6 | Fidelity, page flow, photo/signature tools | 25 users, 10 broken files fixed |
 | 3 | 7-10 | Job flows (resume guard, exam kit, sign) | 100 monthly users |
 | 4 | Later | Editing, OCR, languages | — |
 
@@ -15,7 +15,7 @@ Priority: P0 = MVP, P1 = next, P2 = later, P3 = stretch. Persona: A = Arjun (Mac
 |---|---|---|
 | B-1 | Name and brand | Done |
 | B-2 | Repo and docs | Done |
-| B-3 | Choose stack | Todo |
+| B-3 | Choose stack (after product spec is complete) | On hold |
 | B-4 | UI shell: upload, drag and drop, download | Todo |
 | B-5 | Deploy pipeline | Todo |
 
@@ -48,6 +48,8 @@ Priority: P0 = MVP, P1 = next, P2 = later, P3 = stretch. Persona: A = Arjun (Mac
 | F-5 | Swap to metric-compatible fonts | A | P1 | Todo |
 | F-6 | Open .pages files without a Mac | A | P2 | Todo |
 | F-7 | PDF to .docx | A | P3 | Todo |
+| F-8 | Page Flow Check: flag stranded headings, lone lines at page top/bottom, split tables, blank gaps, empty pages | A | P0 | Todo |
+| F-9 | Page Flow Fix: one-tap fixes with before/after preview | A | P1 | Todo |
 | **Application Kit** |||||
 | K-1 | Photo resize to exact px + KB | P | P0 | Todo |
 | K-2 | Signature cleanup | P | P0 | Todo |

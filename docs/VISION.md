@@ -9,6 +9,7 @@ People edit a document on one device and it breaks on another: fonts swap, spaci
 | Pain | Root cause |
 |---|---|
 | Layout breaks Mac vs Windows vs phone | Missing fonts get substituted; .docx reflows differently in each app (Word, Pages, Google Docs) |
+| Bad page breaks after PDF export (heading at page bottom, text on next page; paragraphs split) | Page-break rules (keep with next, keep lines together) are missing or ignored on conversion |
 | Can't edit/convert without paying | Full-fidelity tools are licensed (Acrobat, Office desktop) |
 | Portal rejects the file | Each portal has its own size/format rules; no tool targets "under X KB" directly |
 | Privacy fear | Free online tools process files on their servers |
@@ -30,6 +31,10 @@ A free, browser-based toolkit that:
 3. Privacy by default
 4. Works on a cheap phone on slow data
 5. Small and finished beats big and half-done
+6. Every screen and every button has a written reason (which persona, which job). No reason, no button.
+
+## Current phase
+**Shaping the idea, not building.** No code until the product and screen-by-screen spec are complete and the founder says go.
 
 ## Boundaries (not building yet)
 Full Word/Pages replacement, real-time collaboration, native apps, payments, accounts.

@@ -41,7 +41,20 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 - .docx to PDF can now run fully in the browser via WebAssembly
 
 **Next**
-- Decide stack (B-3)
 - Start validation interviews (V-1, V-2)
+
+**Blockers:** none
+
+---
+
+## 2026-10-26 (Day 0, scope update)
+**Did**
+- Added Page Flow Check (F-8, P0) and Page Flow Fix (F-9, P1): stranded headings, lone lines, split tables, empty pages after PDF export
+- Agreed working rule: no technical work until the founder says go; every screen and button needs a written reason
+- Put stack choice (B-3) on hold
+
+**Next**
+- Screen-by-screen product spec with a reason for every element
+- Validation interviews (V-1, V-2)
 
 **Blockers:** none
