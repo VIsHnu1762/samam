@@ -100,3 +100,19 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 - Screen-by-screen spec
 
 **Blockers:** none
+
+---
+
+## 2026-10-26 (Day 0, big bets)
+**Did**
+- Added six evidence-backed bets: Document Wallet, Pre-flight check card, Resume Check, print-shop QR handoff, one-tap self-attest, shareable tip cards
+- v1.0 gains Resume Check (lite) and Pre-flight (lite); both reuse engines already planned
+- Scope: 61 features
+
+**Working agreement**
+- Sakha brings at least one new evidence-backed idea or risk to every session, not only answers
+
+**Next**
+- Interviews and survey; screen-by-screen spec
+
+**Blockers:** none

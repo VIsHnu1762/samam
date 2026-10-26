@@ -62,21 +62,24 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | F-11 | Compatibility Report: what changes on each platform (pages, headings, fonts), highlighted | A | P0 (lite) | Todo |
 | F-12 | Portable .docx: editable file hardened to look the same everywhere | A | P1 | Todo |
 | F-13 | PDF Health Check: what's wrong with this PDF, in one tap | all | P1 | Todo |
+| F-14 | Resume Check: readable by hiring systems, one page, same on every platform | A | P0 (lite) | Todo |
 | **Application Kit** |||||
 | K-1 | Photo resize to exact px + KB | P | P0 | Todo |
 | K-2 | Signature cleanup | P | P0 | Todo |
 | K-3 | Verified exam presets (top 10) | P | P1 | Todo |
 | K-4 | One flow: pick exam, get every file | P | P1 | Todo |
 | K-5 | Name + date-of-photo overlay | P | P1 | Todo |
-| K-6 | Pre-upload rejection checker | P | P1 | Todo |
+| K-6 | Pre-flight check card on every file | P | P0 (lite) | Todo |
 | K-7 | Download all as ZIP | P | P2 | Todo |
 | K-8 | Community presets with review | P | P3 | Todo |
 | K-9 | Document packs: joining kit, insurance claim, visa file | P | P2 | Todo |
+| K-10 | Document Wallet: saved on device, one-tap packs | P | P1 | Todo |
 | **Sign & forms** |||||
 | S-1 | Draw / type / upload signature | R | P1 | Todo |
 | S-2 | Fill form fields | P, R | P1 | Todo |
 | S-3 | Stamp, date, initials | R | P2 | Todo |
 | S-4 | Flatten after signing | R | P2 | Todo |
+| S-5 | Self-attest in one tap | P | P1 | Todo |
 | **Edit** |||||
 | E-1 | Highlight, text box, draw | A, R | P2 | Todo |
 | E-2 | True redaction | R | P2 | Todo |
@@ -88,14 +91,16 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | X-3 | Installable offline app (PWA) | P | P1 | Todo |
 | X-4 | Android "Share to Samam" | P, R | P2 | Todo |
 | X-5 | Tamil and Hindi UI | P, R | P2 | Todo |
-| X-6 | Local history | all | P3 | Todo |
+| X-6 | Local history | all | P3 | Dropped (see K-10) |
 | X-7 | Accessibility | all | P2 | Todo |
 | X-8 | "Explain why" on every result | all | P0 | Todo |
+| X-9 | Print-shop handoff by QR, auto-wiped after printing | R, P | P1 | Todo |
 | T-1 | "Zero uploads" proof page | all | P1 | Todo |
 | T-2 | Open source, reproducible build | all | P0 | Doing |
 | T-3 | Cookie-free analytics | all | P1 | Todo |
 | G-1 | Landing pages per task / exam | P | P1 | Todo |
 | G-2 | Feedback + opt-in broken-file submission | all | P1 | Todo |
+| G-4 | Shareable tip cards | all | P2 | Todo |
 
 ## Not building (for now)
 Accounts, payments, native apps, real-time collaboration, a full Word editor.
