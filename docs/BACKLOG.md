@@ -30,6 +30,7 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | V-2 | Interview 5 applicants; collect portal rules | P | Todo |
 | V-3 | Talk to 2 print/xerox shops | R | Todo |
 | V-4 | Collect 10 files that break across devices | A | Todo |
+| V-5 | Fidelity test lab: screenshot 10-20 real docs in Word, Pages, Google Docs, LibreOffice, phone | A | Todo |
 
 ## Features
 | ID | Feature | Persona | Priority | Status |
@@ -54,6 +55,9 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | F-7 | PDF to .docx | A | P3 | Todo |
 | F-8 | Page Flow Check: flag stranded headings, lone lines at page top/bottom, split tables, blank gaps, empty pages | A | P0 | Todo |
 | F-9 | Page Flow Fix: one-tap fixes with before/after preview | A | P1 | Todo |
+| F-10 | Platform Preview: how the doc will look in Word (Win/Mac), Pages, Google Docs, LibreOffice, phone | A | P1 | Todo |
+| F-11 | Compatibility Report: what changes on each platform (pages, headings, fonts), highlighted | A | P0 (lite) | Todo |
+| F-12 | Portable .docx: editable file hardened to look the same everywhere | A | P1 | Todo |
 | **Application Kit** |||||
 | K-1 | Photo resize to exact px + KB | P | P0 | Todo |
 | K-2 | Signature cleanup | P | P0 | Todo |

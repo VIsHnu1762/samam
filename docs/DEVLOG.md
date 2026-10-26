@@ -71,3 +71,16 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 - Screen-by-screen spec, starting with home and the Fidelity + Page Flow journey
 
 **Blockers:** none
+
+---
+
+## 2026-10-26 (Day 0, cross-platform fidelity)
+**Did**
+- Widened fidelity to all standard platforms: Word (Win/Mac), Pages, Google Docs, LibreOffice, phone
+- Added Platform Preview (F-10), Compatibility Report (F-11, lite in v1.0), Portable .docx (F-12)
+- Added fidelity test lab (V-5) to ground predictions in real screenshots
+
+**Next**
+- Screen-by-screen spec
+
+**Blockers:** none

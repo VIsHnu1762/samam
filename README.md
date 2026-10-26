@@ -12,7 +12,7 @@ Samam is a free, privacy-first, browser-based document toolkit. It keeps documen
 - Free online tools upload your private files and push paid plans
 
 ## Planned features
-- **Fidelity Check:** convert .docx to PDF in your browser, see which fonts will break, and keep your resume on one page
+- **Fidelity Check:** see how your document will look in Word, Pages, Google Docs, LibreOffice and on your phone, fix what changes, and export a PDF or .docx that looks the same everywhere
 - **Application Kit:** photo, signature and certificates resized to exactly what an exam portal asks for
 - **Everyday PDF tools:** merge, split, compress to a target size, PDF ⇄ images, sign, fill forms
 - All core tools run in your browser; files stay on your device
