@@ -1,72 +1,85 @@
-# Product Backlog: Samam
+# Backlog & Roadmap: Samam
 
-Priority: P0 = MVP, P1 = next, P2 = later, P3 = stretch. Status: Todo / Doing / Done / Dropped.
-Persona: A = Arjun (Mac student), P = Priya (applicant), R = Ravi (small office).
+Priority: P0 = MVP, P1 = next, P2 = later, P3 = stretch. Persona: A = Arjun (Mac student), P = Priya (applicant), R = Ravi (small office).
 
-## Epic 0: Foundation
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| F-1 | Choose stack | all | P0 | Todo |
-| F-1b | Choose name and brand (Samam) | all | P0 | Done |
-| F-2 | Repo, README, folder structure | all | P0 | Doing |
-| F-3 | UI shell: upload, drag and drop, download, mobile-first | all | P0 | Todo |
-| F-4 | Deploy pipeline (Vercel / Netlify / GitHub Pages) | all | P0 | Todo |
+## Roadmap
+| Phase | Weeks | Focus | Gate to move on |
+|---|---|---|---|
+| 1 | 1-3 | Core tools | Deployed, 10 real users |
+| 2 | 4-6 | Fidelity + photo/signature tools | 25 users, 10 broken files fixed |
+| 3 | 7-10 | Job flows (resume guard, exam kit, sign) | 100 monthly users |
+| 4 | Later | Editing, OCR, languages | — |
 
-## Epic 1: Validate the personas
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| V-1 | Interview 5 students (Mac + Windows) | A | P0 | Todo |
-| V-2 | Interview 5 applicants; collect real portal size rules | P | P0 | Todo |
-| V-3 | Talk to 2 xerox/print shops | R | P1 | Todo |
-| V-4 | Collect 10 real files that break across devices | A | P0 | Todo |
+## Foundation
+| ID | Task | Status |
+|---|---|---|
+| B-1 | Name and brand | Done |
+| B-2 | Repo and docs | Done |
+| B-3 | Choose stack | Todo |
+| B-4 | UI shell: upload, drag and drop, download | Todo |
+| B-5 | Deploy pipeline | Todo |
 
-## Epic 2: Core PDF tools (MVP)
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| P-1 | Merge PDFs (with reorder) | P, R | P0 | Todo |
-| P-2 | Split PDF (page ranges) | P, R | P0 | Todo |
-| P-3 | PDF to images (PNG/JPG) | P | P0 | Todo |
-| P-4 | Images to PDF | P, R | P0 | Todo |
-| P-5 | Compress PDF | A, P | P1 | Todo |
-| P-6 | Sign PDF (draw/type/upload) | R | P1 | Todo |
-| P-7 | Rotate / delete / reorder pages | R | P1 | Todo |
+## Validation
+| ID | Task | Persona | Status |
+|---|---|---|---|
+| V-1 | Interview 5 students (Mac + Windows) | A | Todo |
+| V-2 | Interview 5 applicants; collect portal rules | P | Todo |
+| V-3 | Talk to 2 print/xerox shops | R | Todo |
+| V-4 | Collect 10 files that break across devices | A | Todo |
 
-## Epic 3: Portal-ready (India differentiator)
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| R-1 | Compress image/PDF to exact target size (KB) | P | P0 | Todo |
-| R-2 | Resize photo/signature to exact pixels | P | P1 | Todo |
-| R-3 | Presets for common portals (from V-2 data) | P | P1 | Todo |
-
-## Epic 4: Layout fidelity (core differentiator)
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| L-1 | Root-cause each broken file from V-4 | A | P0 | Todo |
-| L-2 | Docx to PDF with layout frozen (LibreOffice service) | A | P1 | Todo |
-| L-3 | Missing-font detector and warning | A | P1 | Todo |
-| L-4 | Side-by-side "does it look the same?" check | A | P2 | Todo |
-
-## Epic 5: Editing
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| E-1 | Annotate (highlight, text box, draw) | A, R | P1 | Todo |
-| E-2 | Fill forms | P, R | P1 | Todo |
-| E-3 | PDF to Docx | A | P2 | Todo |
-| E-4 | Light text editing in PDF | A | P3 | Todo |
-
-## Epic 6: Quality and launch
-| ID | Task | Persona | Priority | Status |
-|----|------|---------|----------|--------|
-| Q-1 | Large file test (100+ pages) on mid-range phone | all | P1 | Todo |
-| Q-2 | Works offline (PWA) | P | P2 | Todo |
-| Q-3 | 25 real users, feedback form | all | P0 | Todo |
-| Q-4 | README with demo GIF | all | P0 | Todo |
+## Features
+| ID | Feature | Persona | Priority | Status |
+|---|---|---|---|---|
+| **Core PDF** |||||
+| C-1 | Merge with drag-to-reorder | P, R | P0 | Todo |
+| C-2 | Split / extract pages | P, R | P0 | Todo |
+| C-3 | PDF to JPG/PNG | P | P0 | Todo |
+| C-4 | Images to PDF | P, R | P0 | Todo |
+| C-5 | Compress PDF to a target size (KB) | A, P | P0 | Todo |
+| C-6 | Rotate, delete, reorder pages | R | P1 | Todo |
+| C-7 | Page numbers, watermark | R | P2 | Todo |
+| C-8 | Password protect / unlock | R | P2 | Todo |
+| C-9 | Strip hidden metadata | all | P2 | Todo |
+| **Fidelity** |||||
+| F-1 | .docx to PDF in the browser | A | P0 | Todo |
+| F-2 | Font audit (used, missing, substituted) | A | P0 | Todo |
+| F-3 | Page-count guard ("still 1 page") | A | P1 | Todo |
+| F-4 | Side-by-side preview across devices | A | P1 | Todo |
+| F-5 | Swap to metric-compatible fonts | A | P1 | Todo |
+| F-6 | Open .pages files without a Mac | A | P2 | Todo |
+| F-7 | PDF to .docx | A | P3 | Todo |
+| **Application Kit** |||||
+| K-1 | Photo resize to exact px + KB | P | P0 | Todo |
+| K-2 | Signature cleanup | P | P0 | Todo |
+| K-3 | Verified exam presets (top 10) | P | P1 | Todo |
+| K-4 | One flow: pick exam, get every file | P | P1 | Todo |
+| K-5 | Name + date-of-photo overlay | P | P1 | Todo |
+| K-6 | Pre-upload rejection checker | P | P1 | Todo |
+| K-7 | Download all as ZIP | P | P2 | Todo |
+| K-8 | Community presets with review | P | P3 | Todo |
+| **Sign & forms** |||||
+| S-1 | Draw / type / upload signature | R | P1 | Todo |
+| S-2 | Fill form fields | P, R | P1 | Todo |
+| S-3 | Stamp, date, initials | R | P2 | Todo |
+| S-4 | Flatten after signing | R | P2 | Todo |
+| **Edit** |||||
+| E-1 | Highlight, text box, draw | A, R | P2 | Todo |
+| E-2 | True redaction | R | P2 | Todo |
+| E-3 | OCR | R | P3 | Todo |
+| E-4 | Edit existing PDF text | A | P3 | Todo |
+| **Experience & trust** |||||
+| X-1 | Mobile-first, low-end Android | all | P0 | Todo |
+| X-2 | No signup, no upload | all | P0 | Todo |
+| X-3 | Installable offline app (PWA) | P | P1 | Todo |
+| X-4 | Android "Share to Samam" | P, R | P2 | Todo |
+| X-5 | Tamil and Hindi UI | P, R | P2 | Todo |
+| X-6 | Local history | all | P3 | Todo |
+| X-7 | Accessibility | all | P2 | Todo |
+| T-1 | "Zero uploads" proof page | all | P1 | Todo |
+| T-2 | Open source, reproducible build | all | P0 | Doing |
+| T-3 | Cookie-free analytics | all | P1 | Todo |
+| G-1 | Landing pages per task / exam | P | P1 | Todo |
+| G-2 | Feedback + opt-in broken-file submission | all | P1 | Todo |
 
 ## Not building (for now)
-OCR, payments, accounts, native apps, real-time collaboration, full Word editor.
-
-## Milestones
-- **M1, week 1:** F-1 to F-3, V-1/V-2 started, P-1, P-2
-- **M2, weeks 2-3:** P-3, P-4, R-1, P-5
-- **M3, week 4:** deployed, V-4 + L-1 done, 10 users testing
-- **M4, weeks 5-6:** L-2, P-6, fixes from feedback, README + demo, 25 users
+Accounts, payments, native apps, real-time collaboration, a full Word editor.

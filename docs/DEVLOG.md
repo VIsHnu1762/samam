@@ -23,7 +23,25 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 
 **Next**
 - Create empty GitHub repo `samam`; push this setup
-- Decide stack (F-1)
+- Decide stack (B-3)
 - Start interviews (V-1, V-2) and collect broken files (V-4)
 
-**Blockers:** GitHub repo must be created by the owner (Sakha cannot create new repos)
+**Blockers:** GitHub repo must be created by the owner (Sakha cannot create new repos). Resolved: repo live.
+
+---
+
+## 2026-10-26 (Day 0, R&D)
+**Did**
+- Market and competitor research (kept private)
+- Expanded scope to 45 features across 8 modules; prioritized into 4 phases with gates
+- Sharpened the two differentiators: Fidelity Check and Application Kit
+
+**Learned**
+- A generic "private PDF toolkit" is not enough on its own; job-based flows are the gap
+- .docx to PDF can now run fully in the browser via WebAssembly
+
+**Next**
+- Decide stack (B-3)
+- Start validation interviews (V-1, V-2)
+
+**Blockers:** none

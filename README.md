@@ -12,20 +12,18 @@ Samam is a free, privacy-first, browser-based document toolkit. It keeps documen
 - Free online tools upload your private files and push paid plans
 
 ## Planned features
-- Merge, split, reorder, rotate, sign PDFs
-- PDF ⇄ images
-- Compress to an exact target size (KB) for portals
-- Docx to PDF with layout frozen
+- **Fidelity Check:** convert .docx to PDF in your browser, see which fonts will break, and keep your resume on one page
+- **Application Kit:** photo, signature and certificates resized to exactly what an exam portal asks for
+- **Everyday PDF tools:** merge, split, compress to a target size, PDF ⇄ images, sign, fill forms
 - All core tools run in your browser; files stay on your device
 
 ## Project docs
 | Doc | What's inside |
 |---|---|
-| [Vision](docs/VISION.md) | Problem, root causes, solution, principles, metrics |
+| [Vision](docs/VISION.md) | Problem, root causes, solution, principles |
 | [Personas](docs/PERSONAS.md) | Who we build for and what they need |
-| [Competitors](docs/COMPETITORS.md) | Landscape and our position |
 | [Brand](docs/BRAND.md) | Names, tagline, personality |
-| [Backlog](docs/BACKLOG.md) | Prioritized work, by persona |
+| [Backlog & roadmap](docs/BACKLOG.md) | Every planned feature, prioritized, in 4 phases |
 | [Dev log](docs/DEVLOG.md) | Daily progress |
 
 ## Team
