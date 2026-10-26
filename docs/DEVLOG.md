@@ -116,3 +116,16 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 - Interviews and survey; screen-by-screen spec
 
 **Blockers:** none
+
+---
+
+## 2026-10-27 (Day 1)
+**Did**
+- Mapped 14 user categories by occupation into 4 tiers
+- Added Common Service Centre operators as a primary category
+- Added C-13 (ID card print layout), C-14 (print-ready check), F-15 (tech-doc export check). Scope: 64 features
+
+**Next**
+- Interview 1 print shop and 1 CSC operator this week
+
+**Blockers:** none

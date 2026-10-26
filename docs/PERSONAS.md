@@ -69,3 +69,12 @@
 - Interview 5 people per persona (classmates, placement cell, a xerox shop)
 - Ask: "Last time a document gave you trouble, what happened?" (not "would you use this?")
 - Collect real broken files and real portal size rules; log them in DEVLOG
+
+## Who else Samam serves
+| Tier | Categories |
+|---|---|
+| Primary (v1.0) | Print/xerox/cyber café shops, Common Service Centre operators, college students, exam and job aspirants |
+| Secondary (v1.1) | IT professionals and technical writers, teachers and college offices, HR/admin in small firms, small business owners, patients and caregivers |
+| Served through others | Seniors and first-time digital users (via shops and CSCs) |
+| Later | Freelancers, real estate and legal clerks, office professionals |
+| Not our market | CAs, lawyers, document specialists |

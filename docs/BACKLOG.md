@@ -48,6 +48,8 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | C-10 | Scan cleanup: phone photos to a clean PDF | P, R | P1 | Todo |
 | C-11 | Unlock your own password-protected PDF | P, R | P1 | Todo |
 | C-12 | ID copy watermark ("for ___ purpose only") | R, P | P1 | Todo |
+| C-13 | ID card print layout: front and back on one A4 | R | P1 | Todo |
+| C-14 | Print-ready check: page sizes, margins, colour vs B/W, pages per sheet | R | P1 | Todo |
 | **Fidelity** |||||
 | F-1 | .docx to PDF in the browser | A | P0 | Todo |
 | F-2 | Font audit (used, missing, substituted) | A | P0 | Todo |
@@ -63,6 +65,7 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | F-12 | Portable .docx: editable file hardened to look the same everywhere | A | P1 | Todo |
 | F-13 | PDF Health Check: what's wrong with this PDF, in one tap | all | P1 | Todo |
 | F-14 | Resume Check: readable by hiring systems, one page, same on every platform | A | P0 (lite) | Todo |
+| F-15 | Tech-doc export check: wide tables, code blocks, diagrams cut at page edge | IT | P2 | Todo |
 | **Application Kit** |||||
 | K-1 | Photo resize to exact px + KB | P | P0 | Todo |
 | K-2 | Signature cleanup | P | P0 | Todo |
