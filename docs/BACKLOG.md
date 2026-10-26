@@ -3,12 +3,16 @@
 Priority: P0 = MVP, P1 = next, P2 = later, P3 = stretch. Persona: A = Arjun (Mac student), P = Priya (applicant), R = Ravi (small office).
 
 ## Roadmap
-| Phase | Weeks | Focus | Gate to move on |
+Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
+
+| Phase | Dates | Focus | Gate |
 |---|---|---|---|
-| 1 | 1-3 | Core tools | Deployed, 10 real users |
-| 2 | 4-6 | Fidelity, page flow, photo/signature tools | 25 users, 10 broken files fixed |
-| 3 | 7-10 | Job flows (resume guard, exam kit, sign) | 100 monthly users |
-| 4 | Later | Editing, OCR, languages | — |
+| Shape | 26 Oct - 15 Nov | Screen-by-screen spec, interviews. No code. | Spec freeze, 15 Nov |
+| Build 1 | 16 Nov - 6 Dec | Core PDF tools | Core tools working |
+| Build 2 | 7 Dec - 24 Dec | Fidelity, page flow, photo/signature tools | Feature freeze, 24 Dec |
+| Beta | 25 Dec - 31 Dec | 25 beta users, fixes only | No P0 bugs open |
+| **v1.0** | **1 Jan 2027** | All P0 items | Public release |
+| v1.1 | Feb 2027 | P1 items (page flow fix, exam kit, sign, offline) | — |
 
 ## Foundation
 | ID | Task | Status |

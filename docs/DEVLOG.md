@@ -58,3 +58,16 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 - Validation interviews (V-1, V-2)
 
 **Blockers:** none
+
+---
+
+## 2026-10-26 (Day 0, release date)
+**Did**
+- Set the v1.0 release date: **1 Jan 2027**
+- Dated plan: shape until 15 Nov (spec freeze), build 16 Nov - 24 Dec (feature freeze), beta 25-31 Dec
+- v1.0 = all P0 items; P1 items move to v1.1 (Feb 2027)
+
+**Next**
+- Screen-by-screen spec, starting with home and the Fidelity + Page Flow journey
+
+**Blockers:** none
