@@ -84,3 +84,19 @@ Format: **Did / Fixed / Learned / Next / Blockers**
 - Screen-by-screen spec
 
 **Blockers:** none
+
+---
+
+## 2026-10-26 (Day 0, user research)
+**Did**
+- Mapped where PDFs show up in real life and the 8-stage PDF lifecycle
+- Classified users into 8 segments by frequency and skill; v1.0 targets students, applicants, print shops
+- Listed built-in tricks users don't know; decided Samam should do them and explain them
+- Added C-10, C-11, C-12, F-13, K-9, X-8 (P0); raised PDF to .docx to P2. Scope: 56 features
+- Drafted interview questions and an 8-question survey
+
+**Next**
+- Run 15 interviews and collect 100 survey answers by 15 Nov
+- Screen-by-screen spec
+
+**Blockers:** none

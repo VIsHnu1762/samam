@@ -45,6 +45,9 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | C-7 | Page numbers, watermark | R | P2 | Todo |
 | C-8 | Password protect / unlock | R | P2 | Todo |
 | C-9 | Strip hidden metadata | all | P2 | Todo |
+| C-10 | Scan cleanup: phone photos to a clean PDF | P, R | P1 | Todo |
+| C-11 | Unlock your own password-protected PDF | P, R | P1 | Todo |
+| C-12 | ID copy watermark ("for ___ purpose only") | R, P | P1 | Todo |
 | **Fidelity** |||||
 | F-1 | .docx to PDF in the browser | A | P0 | Todo |
 | F-2 | Font audit (used, missing, substituted) | A | P0 | Todo |
@@ -52,12 +55,13 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | F-4 | Side-by-side preview across devices | A | P1 | Todo |
 | F-5 | Swap to metric-compatible fonts | A | P1 | Todo |
 | F-6 | Open .pages files without a Mac | A | P2 | Todo |
-| F-7 | PDF to .docx | A | P3 | Todo |
+| F-7 | PDF to .docx | A | P2 | Todo |
 | F-8 | Page Flow Check: flag stranded headings, lone lines at page top/bottom, split tables, blank gaps, empty pages | A | P0 | Todo |
 | F-9 | Page Flow Fix: one-tap fixes with before/after preview | A | P1 | Todo |
 | F-10 | Platform Preview: how the doc will look in Word (Win/Mac), Pages, Google Docs, LibreOffice, phone | A | P1 | Todo |
 | F-11 | Compatibility Report: what changes on each platform (pages, headings, fonts), highlighted | A | P0 (lite) | Todo |
 | F-12 | Portable .docx: editable file hardened to look the same everywhere | A | P1 | Todo |
+| F-13 | PDF Health Check: what's wrong with this PDF, in one tap | all | P1 | Todo |
 | **Application Kit** |||||
 | K-1 | Photo resize to exact px + KB | P | P0 | Todo |
 | K-2 | Signature cleanup | P | P0 | Todo |
@@ -67,6 +71,7 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | K-6 | Pre-upload rejection checker | P | P1 | Todo |
 | K-7 | Download all as ZIP | P | P2 | Todo |
 | K-8 | Community presets with review | P | P3 | Todo |
+| K-9 | Document packs: joining kit, insurance claim, visa file | P | P2 | Todo |
 | **Sign & forms** |||||
 | S-1 | Draw / type / upload signature | R | P1 | Todo |
 | S-2 | Fill form fields | P, R | P1 | Todo |
@@ -85,6 +90,7 @@ Started 26 Oct 2026. **v1.0 release: 1 Jan 2027.**
 | X-5 | Tamil and Hindi UI | P, R | P2 | Todo |
 | X-6 | Local history | all | P3 | Todo |
 | X-7 | Accessibility | all | P2 | Todo |
+| X-8 | "Explain why" on every result | all | P0 | Todo |
 | T-1 | "Zero uploads" proof page | all | P1 | Todo |
 | T-2 | Open source, reproducible build | all | P0 | Doing |
 | T-3 | Cookie-free analytics | all | P1 | Todo |
